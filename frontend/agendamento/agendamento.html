@@ -67,9 +67,8 @@
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(data)
         });
-        if (resp.status === 409) {
-          const msg = await resp.text();
-          alert(msg); 
+        if (response.status === 409) {
+          alert("Agendamento NÃO salvo❌Esse horário já está ocupado."); 
           return;
         }
         if (response.status === 201) {

@@ -1,6 +1,5 @@
 # 📅 Sistema de Agendamento
 Apresentação Profissional com Agendamento por Banco de Dados
-___
 
 ## 🚀 Funcionalidades
 
@@ -24,18 +23,14 @@ ___
     - ✅ Mensagem de sucesso quando o agendamento é salvo.
     - ⚠️ Aviso quando o horário já está ocupado (`409`).
 
----
-
 ## 🛠️ Tecnologias Utilizadas
 - **Back-end**: Java, Spring Boot, Spring Data JPA, Hibernate, Banco de Dados (PostgreSQL).
 - **Front-end**: HTML, CSS, JavaScript (fetch API).
 - **Ferramentas**: IntelliJ IDEA, Git/GitHub.
 
----
-
 ## ▶️ Como rodar o projeto
 
-### 🔧 Back-end
+#### 🔧 Back-end
 1. Clone este repositório:
    ```bash
    https://github.com/riBergamo/site-de-apresentacao-profissional.git

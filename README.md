@@ -20,7 +20,7 @@ Site para Apresentação Profissional apenas com desenvolvido em **HTML5** e **C
 ## 🔧 Como Executar
 1. Clone este repositório:
 ```
-git clone <url-do-repositorio>
+git clone https://github.com/riBergamo/site-de-apresentacao-profissional.git
 ```
 
 2. Acesse a pasta:

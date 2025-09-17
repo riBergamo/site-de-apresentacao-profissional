@@ -1,41 +1,23 @@
-# 📅 Sistema de Agendamento
-Apresentação Profissional com Agendamento por Banco de Dados
+# 🌐 Portfólio Profissional
+Site para Apresentação Profissional apenas com desenvolvido em **HTML5** e **CSS3**, com foco em **design responsivo** e uma navegação simples e intuitiva.
 ___
 
 ## 🚀 Funcionalidades
 
-### 🔹 Back-end (API REST - Spring Boot)
-- **Criar agendamento** com os campos:
-  - Nome
-  - Data de nascimento
-  - Serviço
-  - Data
-  - Horário
-  - Mensagem (opcional)
-- **Listar agendamentos** já existentes (ainda não add no front).
-- **Excluir (cancelar) agendamento** (ainda não add no front).
-- **Validação de conflito**: não permite agendar em um horário já ocupado (`409 Conflict`).
-
-### 🔹 Front-end (HTML + JS)
-- **Página principal** (`index.html`): apresentação do profissional, com informações de contato e botão para agendar.
-- **Página de agendamento** (`agendamento.html`):
-  - Formulário para registrar novos agendamentos.
-  - Avisos ao usuário:
-    - ✅ Mensagem de sucesso quando o agendamento é salvo.
-    - ⚠️ Aviso quando o horário já está ocupado (`409`).
+- Menu responsivo com efeitos de hover.
+- Ícones de **WhatsApp** e **E-mail** para contato rápido.
+- Seções de:
+  - **Quem Sou** – breve apresentação pessoal.
+  - **Projetos** – exibição de trabalhos e estudos realizados.
+  - **Contato** – formas de me encontrar.
+- Layout moderno com cores em tons de azul, mantendo contraste agradável e leitura fácil.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
-- **Back-end**: Java, Spring Boot, Spring Data JPA, Hibernate, Banco de Dados (PostgreSQL).
-- **Front-end**: HTML, CSS, JavaScript (fetch API).
-- **Ferramentas**: IntelliJ IDEA, Git/GitHub.
+## 🚀 Tecnologias Utilizadas
+
+- **HTML5**
+- **CSS3**
+- **Font Awesome / Flaticon** para ícones
 
 ---
-
-## ▶️ Como rodar o projeto
-
-### 🔧 Back-end
-1. Clone este repositório:
-   ```bash
-   https://github.com/riBergamo/site-de-apresentacao-profissional.git
